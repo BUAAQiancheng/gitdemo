@@ -18,4 +18,5 @@ for every in a_list:
     else: 
        b_list=['Not Found!']
        break
-
+for j in b_list:
+    print(j,end='')
