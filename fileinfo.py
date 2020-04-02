@@ -12,3 +12,10 @@ b_list=[]
 for i in range(0,len(cipher),4):
     code=cipher[i:i+4]
     a_list.append(code)
+for every in a_list:
+    if every in dic:
+        b_list.append(dic[every])       
+    else: 
+       b_list=['Not Found!']
+       break
+
